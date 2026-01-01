@@ -19,7 +19,7 @@ jobs:
       id: creds
       uses: aws-actions/configure-aws-credentials@v5.1.1
       with:
-          aws-region: us-east-2
+          aws-region: us-east-1
           role-to-assume: arn:aws:iam::195275643470:role/sts-lab-2-target
           output-credentials: true
     
